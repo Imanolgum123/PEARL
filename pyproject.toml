@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pearl"
+version = "0.1.0"
+description = "PEARL is an open-source project that optimizes prompts for LLMs."
+authors = ["Imanol Garcia Urtiaga <imanolgum@hotmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
